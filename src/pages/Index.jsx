@@ -10,7 +10,7 @@ const Index = () => {
         <h1 className="text-2xl font-bold">My Application</h1>
       </header>
 
-      <main className="flex-grow container mx-auto px-4 py-8">
+      <main className="flex-grow container mx-auto px-4 py-8 bg-red-500"> {/* Added bg-red-500 here */}
         <Card className="mb-8">
           <CardHeader>
             <CardTitle>Welcome to Your Application</CardTitle>
